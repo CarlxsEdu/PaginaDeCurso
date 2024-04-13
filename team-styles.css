@@ -1,0 +1,136 @@
+@import url(../colors.css);
+
+header{
+    height: 12rem;
+    background-color: #2323cc;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 80%;
+
+}
+
+
+.header-navegacao * {
+    font-size: 1.9rem;
+    margin-left: 15px;
+     color: #ffffff;
+    
+}
+
+.header-navegacao *:hover{
+    color:#75daf3;
+    transform: scale(1.1);
+    
+}
+
+.header-navegacao{
+
+    display: flex;
+}
+
+.header-navegacao a:nth-child(2){
+    text-decoration: underline;
+
+}
+
+
+main{
+    align-items: center;
+
+    background-color: #ffffff ;
+}
+.banner{
+    width: 100%;
+    
+    
+}
+
+h1{
+    color: black;
+    text-align: center;
+    
+    margin: 3rem 0;
+    
+}
+
+
+
+.team{
+    display: flex;
+    gap: 16px;
+    width: 80vw;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+.team__cartao{
+    
+    width: 40rem;
+    height: 40rem;
+    background-color: rgba(32, 248, 255, 0.678);
+    border-radius: 15px;
+    border: solid 2px rgb(80, 160, 235);
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.team__cartao h2{
+    font-size: 2.5rem;
+}
+
+.team__cartao p{
+    font-size: 1.3rem;
+}
+
+.team__cartao:hover{
+    filter: brightness(75%);
+    cursor: pointer;
+    transform: scale(1.01);
+
+}
+
+
+.team__cartao__foto{
+    
+    width: 100%;
+    height: 90%;
+
+  
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 6rem;
+    background: rgb(20,20,201);
+ background: linear-gradient(90deg, rgba(20,20,201,1) 10%, rgba(41, 71, 240, 0.795) 72%);
+}
+
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .footer-links a {
+        color:whitesmoke;
+
+    }
+    
+    .footer-links h2{
+        margin-bottom: 2rem;
+    }
+
